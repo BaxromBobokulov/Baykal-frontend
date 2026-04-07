@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@layer base {
+    * {
+        @apply box-border;
+    }
+}
+
+@theme {
+    --font-display: "Open Sans", sans-serif;
+    --color-button-rangi: #2F70D9;
+}
+
+@layer components {
+  .card {
+    @apply flex flex-col gap-[15px] items-center justify-center w-[237px] h-[207px] text-[#686868]  text-[14px] font-display;
+  }
+}
